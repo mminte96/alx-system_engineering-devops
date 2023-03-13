@@ -1,2 +1,2 @@
 #!/bin/bash
-tail /etc/passwd
+sed -n "1,10p" /etc/passwd | cat -n
